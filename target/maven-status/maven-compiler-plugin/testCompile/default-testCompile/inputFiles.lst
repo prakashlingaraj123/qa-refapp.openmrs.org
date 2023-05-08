@@ -1,0 +1,13 @@
+C:\Users\pli6cob\workspace\openmrs\src\test\java\qa_refapp\openmrs\tests\TC02_RegisterPatientandVerifyPatientDetailsTest.java
+C:\Users\pli6cob\workspace\openmrs\src\test\java\qa_refapp\openmrs\tests\TC10_AddPastVisitandVerifyFutureDateIsNotClickable.java
+C:\Users\pli6cob\workspace\openmrs\src\test\java\qa_refapp\openmrs\tests\StandaloneTest.java
+C:\Users\pli6cob\workspace\openmrs\src\test\java\qa_refapp\openmrs\baseComponent\BaseTest.java
+C:\Users\pli6cob\workspace\openmrs\src\test\java\qa_refapp\openmrs\tests\TC05_AttachmentandRecentVisitwithAttachmentUploadTagTest.java
+C:\Users\pli6cob\workspace\openmrs\src\test\java\qa_refapp\openmrs\tests\TC07_HeightWeightAbdBMIVerificationInPatientDetailPageTest.java
+C:\Users\pli6cob\workspace\openmrs\src\test\java\qa_refapp\openmrs\tests\TC04_AttachmentTosterofStartVisitTest.java
+C:\Users\pli6cob\workspace\openmrs\src\test\java\qa_refapp\openmrs\tests\TC06_StartCaptureVitalsAndVerifyBMIusingFormulaTest.java
+C:\Users\pli6cob\workspace\openmrs\src\test\java\qa_refapp\openmrs\tests\TC09_MergVisitsAndVerifyRecentVisitsTest.java
+C:\Users\pli6cob\workspace\openmrs\src\test\java\qa_refapp\openmrs\tests\TC03_PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset.java
+C:\Users\pli6cob\workspace\openmrs\src\test\java\qa_refapp\openmrs\tests\TC08_RecentVisitWithCurrentDateandVitalTest.java
+C:\Users\pli6cob\workspace\openmrs\src\test\java\qa_refapp\openmrs\tests\TC01_DashboardPageVerificationTest.java
+C:\Users\pli6cob\workspace\openmrs\src\test\java\qa_refapp\openmrs\tests\TC11_DeletePatientVerifyToasterTestAndSearchDeletedPatient.java

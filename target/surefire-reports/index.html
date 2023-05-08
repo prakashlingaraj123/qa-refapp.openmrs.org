@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\pli6cob\workspace\openmrs\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 2 failed,  1 skipped,  8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa_refapp.openmrs.tests.TC04_AttachmentTosterofStartVisitTest" class="method navigator-link" hash-for-method="AttachmentTosterofStartVisitTest({coption=Attachment1, filepath=\Chrysanthemum.jpg, Name=Tom Cat})">AttachmentTosterofStartVisitTest({coption=Attachment1, filepath=\Chrysanthemum.jpg, Name=Tom Cat})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa_refapp.openmrs.tests.TC05_AttachmentandRecentVisitwithAttachmentUploadTagTest" class="method navigator-link" hash-for-method="AttachmentandRecentVisitwithAttachmentUploadTagTest({tag=Attachment Upload, Name=Tom Cat})">AttachmentandRecentVisitwithAttachmentUploadTagTest({tag=Attachment Upload, Name=Tom Cat})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa_refapp.openmrs.tests.TC02_RegisterPatientandVerifyPatientDetailsTest" class="method navigator-link" hash-for-method="RegisterPatientandVerifyPatientDetailsTest({lastName=Cat, country=IND, address=13B, gender=M, city=CBE, postalCode=641029, birthDate=24, birthM...)">RegisterPatientandVerifyPatientDetailsTest({lastName=Cat, country=IND, address=13B, gender=M, city=CBE, postalCode=641029, birthDate=24, birthM...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa_refapp.openmrs.tests.TC10_AddPastVisitandVerifyFutureDateIsNotClickable" class="method navigator-link" hash-for-method="AddPastVisitandVerifyFutureDateIsNotClickable({expectedAttriblteVal=day disabled, Name=Tom Cat})">AddPastVisitandVerifyFutureDateIsNotClickable({expectedAttriblteVal=day disabled, Name=Tom Cat})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa_refapp.openmrs.tests.TC01_DashboardPageVerificationTest" class="method navigator-link" hash-for-method="DashboardPageVerificationTest">DashboardPageVerificationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa_refapp.openmrs.tests.TC11_DeletePatientVerifyToasterTestAndSearchDeletedPatient" class="method navigator-link" hash-for-method="DeletePatientVerifyToasterTestAndSearchDeletedPatient({deleteConfirmMes=OP Completed, Name=Tom Cat})">DeletePatientVerifyToasterTestAndSearchDeletedPatient({deleteConfirmMes=OP Completed, Name=Tom Cat})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa_refapp.openmrs.tests.TC07_HeightWeightAbdBMIVerificationInPatientDetailPageTest" class="method navigator-link" hash-for-method="HeightWeightAbdBMIVerificationInPatientDetailPageTest({Name=Tom Cat})">HeightWeightAbdBMIVerificationInPatientDetailPageTest({Name=Tom Cat})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa_refapp.openmrs.tests.TC09_MergVisitsAndVerifyRecentVisitsTest" class="method navigator-link" hash-for-method="MergVisitsAndVerifyRecentVisitsTest({tag=Vitals, Attachment Upload, Name=Tom Cat})">MergVisitsAndVerifyRecentVisitsTest({tag=Vitals, Attachment Upload, Name=Tom Cat})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa_refapp.openmrs.tests.TC03_PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset" class="method navigator-link" hash-for-method="PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset({Name=Tom Cat})">PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset({Name=Tom Cat})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa_refapp.openmrs.tests.TC08_RecentVisitWithCurrentDateandVitalTest" class="method navigator-link" hash-for-method="RecentVisitWithCurrentDateandVitalTest({tag=Vitals, Name=Tom Cat})">RecentVisitWithCurrentDateandVitalTest({tag=Vitals, Name=Tom Cat})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa_refapp.openmrs.tests.TC06_StartCaptureVitalsAndVerifyBMIusingFormulaTest" class="method navigator-link" hash-for-method="StartCaptureVitalsAndVerifyBMIusingFormulaTest({Name=Tom Cat})">StartCaptureVitalsAndVerifyBMIusingFormulaTest({Name=Tom Cat})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">qa_refapp.openmrs.tests.TC04_AttachmentTosterofStartVisitTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AttachmentTosterofStartVisitTest({coption=Attachment1, filepath=\Chrysanthemum.jpg, Name=Tom Cat})">
+                  </a> <!-- AttachmentTosterofStartVisitTest({coption=Attachment1, filepath=\Chrysanthemum.jpg, Name=Tom Cat}) -->
+                  <span class="method-name">AttachmentTosterofStartVisitTest</span>
+                  <span class="parameters">({coption=Attachment1, filepath=\Chrysanthemum.jpg, Name=Tom Cat})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=112.0.5615.121)
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97ae55aeb95a1a6e7fe9b4ac934248ab, findElement {using=xpath, value=//div[@class=&apos;toast-item-wrapper&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.121, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\pli6cob\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64343/devtoo..., se:cdpVersion: 112.0.5615.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97ae55aeb95a1a6e7fe9b4ac934248ab
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy17.toString(Unknown Source)
+	at java.base/java.lang.String.valueOf(String.java:2951)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:172)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:298)
+	at java.base/java.lang.String.valueOf(String.java:2951)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:172)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at qa_refapp.openmrs.abstractcomponents.AbstractComponent.waitforVisibilityofElement(AbstractComponent.java)
+	at qa_refapp.openmrs.abstractcomponents.AbstractComponent.toasterMessage(AbstractComponent.java)
+	at qa_refapp.openmrs.pageobjets.AttachmentsPage.addAttachment(AttachmentsPage.java)
+	at qa_refapp.openmrs.tests.TC04_AttachmentTosterofStartVisitTest.AttachmentTosterofStartVisitTest(TC04_AttachmentTosterofStartVisitTest.java)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">qa_refapp.openmrs.tests.TC05_AttachmentandRecentVisitwithAttachmentUploadTagTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AttachmentandRecentVisitwithAttachmentUploadTagTest({tag=Attachment Upload, Name=Tom Cat})">
+                  </a> <!-- AttachmentandRecentVisitwithAttachmentUploadTagTest({tag=Attachment Upload, Name=Tom Cat}) -->
+                  <span class="method-name">AttachmentandRecentVisitwithAttachmentUploadTagTest</span>
+                  <span class="parameters">({tag=Attachment Upload, Name=Tom Cat})</span>
+                  <div class="stack-trace">java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at qa_refapp.openmrs.pageobjets.PatientDetailPage.verifyRecentVisitwithTag(PatientDetailPage.java)
+	at qa_refapp.openmrs.tests.TC05_AttachmentandRecentVisitwithAttachmentUploadTagTest.AttachmentandRecentVisitwithAttachmentUploadTagTest(TC05_AttachmentandRecentVisitwithAttachmentUploadTagTest.java)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">qa_refapp.openmrs.tests.TC02_RegisterPatientandVerifyPatientDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterPatientandVerifyPatientDetailsTest({lastName=Cat, country=IND, address=13B, gender=M, city=CBE, postalCode=641029, birthDate=24, birthM...)">
+                  </a> <!-- RegisterPatientandVerifyPatientDetailsTest({lastName=Cat, country=IND, address=13B, gender=M, city=CBE, postalCode=641029, birthDate=24, birthM...) -->
+                  <span class="method-name">RegisterPatientandVerifyPatientDetailsTest</span>
+                  <span class="parameters">({lastName=Cat, country=IND, address=13B, gender=M, city=CBE, postalCode=641029, birthDate=24, birthMon=6, firstName=Tom, birthYr=1990, phone=9877656789, state=TN})</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68ee0bf49ee4c069e325e2dbe14a306a, get {url=https://qa-refapp.openmrs.org/openmrs/login.htm}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.121, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\pli6cob\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64293/devtoo..., se:cdpVersion: 112.0.5615.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 68ee0bf49ee4c069e325e2dbe14a306a
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at qa_refapp.openmrs.pageobjets.LoginPage.goTo(LoginPage.java)
+	at qa_refapp.openmrs.baseComponent.BaseTest.launchApplicationandLogin(BaseTest.java)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.io.UncheckedIOException: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	... 39 more
+Caused by: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:356)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qa_refapp.openmrs.tests.TC03_PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset({Name=Tom Cat})">
+                  </a> <!-- PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset({Name=Tom Cat}) -->
+                  <span class="method-name">PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset</span>
+                  <span class="parameters">({Name=Tom Cat})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qa_refapp.openmrs.tests.TC10_AddPastVisitandVerifyFutureDateIsNotClickable</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddPastVisitandVerifyFutureDateIsNotClickable({expectedAttriblteVal=day disabled, Name=Tom Cat})">
+                  </a> <!-- AddPastVisitandVerifyFutureDateIsNotClickable({expectedAttriblteVal=day disabled, Name=Tom Cat}) -->
+                  <span class="method-name">AddPastVisitandVerifyFutureDateIsNotClickable</span>
+                  <span class="parameters">({expectedAttriblteVal=day disabled, Name=Tom Cat})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qa_refapp.openmrs.tests.TC08_RecentVisitWithCurrentDateandVitalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RecentVisitWithCurrentDateandVitalTest({tag=Vitals, Name=Tom Cat})">
+                  </a> <!-- RecentVisitWithCurrentDateandVitalTest({tag=Vitals, Name=Tom Cat}) -->
+                  <span class="method-name">RecentVisitWithCurrentDateandVitalTest</span>
+                  <span class="parameters">({tag=Vitals, Name=Tom Cat})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qa_refapp.openmrs.tests.TC09_MergVisitsAndVerifyRecentVisitsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MergVisitsAndVerifyRecentVisitsTest({tag=Vitals, Attachment Upload, Name=Tom Cat})">
+                  </a> <!-- MergVisitsAndVerifyRecentVisitsTest({tag=Vitals, Attachment Upload, Name=Tom Cat}) -->
+                  <span class="method-name">MergVisitsAndVerifyRecentVisitsTest</span>
+                  <span class="parameters">({tag=Vitals, Attachment Upload, Name=Tom Cat})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qa_refapp.openmrs.tests.TC11_DeletePatientVerifyToasterTestAndSearchDeletedPatient</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeletePatientVerifyToasterTestAndSearchDeletedPatient({deleteConfirmMes=OP Completed, Name=Tom Cat})">
+                  </a> <!-- DeletePatientVerifyToasterTestAndSearchDeletedPatient({deleteConfirmMes=OP Completed, Name=Tom Cat}) -->
+                  <span class="method-name">DeletePatientVerifyToasterTestAndSearchDeletedPatient</span>
+                  <span class="parameters">({deleteConfirmMes=OP Completed, Name=Tom Cat})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qa_refapp.openmrs.tests.TC06_StartCaptureVitalsAndVerifyBMIusingFormulaTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="StartCaptureVitalsAndVerifyBMIusingFormulaTest({Name=Tom Cat})">
+                  </a> <!-- StartCaptureVitalsAndVerifyBMIusingFormulaTest({Name=Tom Cat}) -->
+                  <span class="method-name">StartCaptureVitalsAndVerifyBMIusingFormulaTest</span>
+                  <span class="parameters">({Name=Tom Cat})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qa_refapp.openmrs.tests.TC01_DashboardPageVerificationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DashboardPageVerificationTest">
+                  </a> <!-- DashboardPageVerificationTest -->
+                  <span class="method-name">DashboardPageVerificationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qa_refapp.openmrs.tests.TC07_HeightWeightAbdBMIVerificationInPatientDetailPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HeightWeightAbdBMIVerificationInPatientDetailPageTest({Name=Tom Cat})">
+                  </a> <!-- HeightWeightAbdBMIVerificationInPatientDetailPageTest({Name=Tom Cat}) -->
+                  <span class="method-name">HeightWeightAbdBMIVerificationInPatientDetailPageTest</span>
+                  <span class="parameters">({Name=Tom Cat})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\pli6cob\workspace\openmrs\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;qa_refapp.openmrs.tests.TC01_DashboardPageVerificationTest&quot;/&gt;
+      &lt;class name=&quot;qa_refapp.openmrs.tests.TC02_RegisterPatientandVerifyPatientDetailsTest&quot;/&gt;
+      &lt;class name=&quot;qa_refapp.openmrs.tests.TC03_PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset&quot;/&gt;
+      &lt;class name=&quot;qa_refapp.openmrs.tests.TC04_AttachmentTosterofStartVisitTest&quot;/&gt;
+      &lt;class name=&quot;qa_refapp.openmrs.tests.TC05_AttachmentandRecentVisitwithAttachmentUploadTagTest&quot;/&gt;
+      &lt;class name=&quot;qa_refapp.openmrs.tests.TC06_StartCaptureVitalsAndVerifyBMIusingFormulaTest&quot;/&gt;
+      &lt;class name=&quot;qa_refapp.openmrs.tests.TC07_HeightWeightAbdBMIVerificationInPatientDetailPageTest&quot;/&gt;
+      &lt;class name=&quot;qa_refapp.openmrs.tests.TC08_RecentVisitWithCurrentDateandVitalTest&quot;/&gt;
+      &lt;class name=&quot;qa_refapp.openmrs.tests.TC09_MergVisitsAndVerifyRecentVisitsTest&quot;/&gt;
+      &lt;class name=&quot;qa_refapp.openmrs.tests.TC10_AddPastVisitandVerifyFutureDateIsNotClickable&quot;/&gt;
+      &lt;class name=&quot;qa_refapp.openmrs.tests.TC11_DeletePatientVerifyToasterTestAndSearchDeletedPatient&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'AttachmentTosterofStartVisitTest')
+data.setCell(0, 2, 'qa_refapp.openmrs.tests.TC04_AttachmentTosterofStartVisitTest')
+data.setCell(0, 3, 41822);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'StartCaptureVitalsAndVerifyBMIusingFormulaTest')
+data.setCell(1, 2, 'qa_refapp.openmrs.tests.TC06_StartCaptureVitalsAndVerifyBMIusingFormulaTest')
+data.setCell(1, 3, 40074);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'AttachmentandRecentVisitwithAttachmentUploadTagTest')
+data.setCell(2, 2, 'qa_refapp.openmrs.tests.TC05_AttachmentandRecentVisitwithAttachmentUploadTagTest')
+data.setCell(2, 3, 20747);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'MergVisitsAndVerifyRecentVisitsTest')
+data.setCell(3, 2, 'qa_refapp.openmrs.tests.TC09_MergVisitsAndVerifyRecentVisitsTest')
+data.setCell(3, 3, 14873);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'RecentVisitWithCurrentDateandVitalTest')
+data.setCell(4, 2, 'qa_refapp.openmrs.tests.TC08_RecentVisitWithCurrentDateandVitalTest')
+data.setCell(4, 3, 14354);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'DeletePatientVerifyToasterTestAndSearchDeletedPatient')
+data.setCell(5, 2, 'qa_refapp.openmrs.tests.TC11_DeletePatientVerifyToasterTestAndSearchDeletedPatient')
+data.setCell(5, 3, 14342);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset')
+data.setCell(6, 2, 'qa_refapp.openmrs.tests.TC03_PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset')
+data.setCell(6, 3, 11021);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'AddPastVisitandVerifyFutureDateIsNotClickable')
+data.setCell(7, 2, 'qa_refapp.openmrs.tests.TC10_AddPastVisitandVerifyFutureDateIsNotClickable')
+data.setCell(7, 3, 9215);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'HeightWeightAbdBMIVerificationInPatientDetailPageTest')
+data.setCell(8, 2, 'qa_refapp.openmrs.tests.TC07_HeightWeightAbdBMIVerificationInPatientDetailPageTest')
+data.setCell(8, 3, 8240);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'DashboardPageVerificationTest')
+data.setCell(9, 2, 'qa_refapp.openmrs.tests.TC01_DashboardPageVerificationTest')
+data.setCell(9, 3, 64);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'RegisterPatientandVerifyPatientDetailsTest')
+data.setCell(10, 2, 'qa_refapp.openmrs.tests.TC02_RegisterPatientandVerifyPatientDetailsTest')
+data.setCell(10, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa_refapp.openmrs.tests.TC01_DashboardPageVerificationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplicationandLogin</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DashboardPageVerificationTest</span>
+                <span class="method-start">19015 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">19082 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa_refapp.openmrs.tests.TC02_RegisterPatientandVerifyPatientDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">launchApplicationandLogin</span>
+                <span class="method-start">20248 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterPatientandVerifyPatientDetailsTest({lastName=Cat, country=IND, address=13B, gender=M, city=CBE, postalCode=641029, birthDate=24, birthM...)</span>
+                <span class="method-start">26416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterTest</span>
+                <span class="method-start">26417 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa_refapp.openmrs.tests.TC03_PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplicationandLogin</span>
+                <span class="method-start">26431 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset({Name=Tom Cat})</span>
+                <span class="method-start">36350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">47372 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa_refapp.openmrs.tests.TC04_AttachmentTosterofStartVisitTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplicationandLogin</span>
+                <span class="method-start">47558 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AttachmentTosterofStartVisitTest({coption=Attachment1, filepath=\Chrysanthemum.jpg, Name=Tom Cat})</span>
+                <span class="method-start">58072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterTest</span>
+                <span class="method-start">99897 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa_refapp.openmrs.tests.TC05_AttachmentandRecentVisitwithAttachmentUploadTagTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplicationandLogin</span>
+                <span class="method-start">99937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AttachmentandRecentVisitwithAttachmentUploadTagTest({tag=Attachment Upload, Name=Tom Cat})</span>
+                <span class="method-start">110709 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">131456 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa_refapp.openmrs.tests.TC06_StartCaptureVitalsAndVerifyBMIusingFormulaTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplicationandLogin</span>
+                <span class="method-start">131839 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">StartCaptureVitalsAndVerifyBMIusingFormulaTest({Name=Tom Cat})</span>
+                <span class="method-start">141321 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">181395 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa_refapp.openmrs.tests.TC07_HeightWeightAbdBMIVerificationInPatientDetailPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplicationandLogin</span>
+                <span class="method-start">181698 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HeightWeightAbdBMIVerificationInPatientDetailPageTest({Name=Tom Cat})</span>
+                <span class="method-start">192606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">200846 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa_refapp.openmrs.tests.TC08_RecentVisitWithCurrentDateandVitalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplicationandLogin</span>
+                <span class="method-start">201762 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RecentVisitWithCurrentDateandVitalTest({tag=Vitals, Name=Tom Cat})</span>
+                <span class="method-start">212413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">226767 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa_refapp.openmrs.tests.TC09_MergVisitsAndVerifyRecentVisitsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplicationandLogin</span>
+                <span class="method-start">226986 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MergVisitsAndVerifyRecentVisitsTest({tag=Vitals, Attachment Upload, Name=Tom Cat})</span>
+                <span class="method-start">239283 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">254156 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa_refapp.openmrs.tests.TC10_AddPastVisitandVerifyFutureDateIsNotClickable</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplicationandLogin</span>
+                <span class="method-start">255533 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddPastVisitandVerifyFutureDateIsNotClickable({expectedAttriblteVal=day disabled, Name=Tom Cat})</span>
+                <span class="method-start">267132 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">276347 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa_refapp.openmrs.tests.TC11_DeletePatientVerifyToasterTestAndSearchDeletedPatient</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplicationandLogin</span>
+                <span class="method-start">277811 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DeletePatientVerifyToasterTestAndSearchDeletedPatient({deleteConfirmMes=OP Completed, Name=Tom Cat})</span>
+                <span class="method-start">289979 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">304322 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-08T13:29:16 IST" name="Suite" finished-at="2023-05-08T13:34:36 IST" duration-ms="319946">
+    <groups>
+    </groups>
+    <test started-at="2023-05-08T13:29:16 IST" name="Test" finished-at="2023-05-08T13:34:36 IST" duration-ms="319946">
+      <class name="qa_refapp.openmrs.tests.TC05_AttachmentandRecentVisitwithAttachmentUploadTagTest">
+        <test-method is-config="true" signature="launchApplicationandLogin()[pri:0, instance:qa_refapp.openmrs.tests.TC05_AttachmentandRecentVisitwithAttachmentUploadTagTest@6cd28fa7]" started-at="2023-05-08T13:31:16 IST" name="launchApplicationandLogin" finished-at="2023-05-08T13:31:28 IST" duration-ms="11738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicationandLogin -->
+        <test-method signature="AttachmentandRecentVisitwithAttachmentUploadTagTest(java.util.HashMap)[pri:0, instance:qa_refapp.openmrs.tests.TC05_AttachmentandRecentVisitwithAttachmentUploadTagTest@6cd28fa7]" started-at="2023-05-08T13:31:28 IST" name="AttachmentandRecentVisitwithAttachmentUploadTagTest" data-provider="dataset" finished-at="2023-05-08T13:31:44 IST" duration-ms="16672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{tag=Attachment Upload, Name=Tom Cat}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AttachmentandRecentVisitwithAttachmentUploadTagTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa_refapp.openmrs.tests.TC05_AttachmentandRecentVisitwithAttachmentUploadTagTest@6cd28fa7]" started-at="2023-05-08T13:31:45 IST" name="afterTest" finished-at="2023-05-08T13:31:45 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa_refapp.openmrs.tests.TC05_AttachmentandRecentVisitwithAttachmentUploadTagTest -->
+      <class name="qa_refapp.openmrs.tests.TC11_DeletePatientVerifyToasterTestAndSearchDeletedPatient">
+        <test-method is-config="true" signature="launchApplicationandLogin()[pri:0, instance:qa_refapp.openmrs.tests.TC11_DeletePatientVerifyToasterTestAndSearchDeletedPatient@18d87d80]" started-at="2023-05-08T13:34:11 IST" name="launchApplicationandLogin" finished-at="2023-05-08T13:34:22 IST" duration-ms="10438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicationandLogin -->
+        <test-method signature="DeletePatientVerifyToasterTestAndSearchDeletedPatient(java.util.HashMap)[pri:0, instance:qa_refapp.openmrs.tests.TC11_DeletePatientVerifyToasterTestAndSearchDeletedPatient@18d87d80]" started-at="2023-05-08T13:34:22 IST" name="DeletePatientVerifyToasterTestAndSearchDeletedPatient" data-provider="dataset" finished-at="2023-05-08T13:34:35 IST" duration-ms="13549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{deleteConfirmMes=OP Completed, Name=Tom Cat}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletePatientVerifyToasterTestAndSearchDeletedPatient -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa_refapp.openmrs.tests.TC11_DeletePatientVerifyToasterTestAndSearchDeletedPatient@18d87d80]" started-at="2023-05-08T13:34:35 IST" name="afterTest" finished-at="2023-05-08T13:34:36 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa_refapp.openmrs.tests.TC11_DeletePatientVerifyToasterTestAndSearchDeletedPatient -->
+      <class name="qa_refapp.openmrs.tests.TC03_PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset">
+        <test-method is-config="true" signature="launchApplicationandLogin()[pri:0, instance:qa_refapp.openmrs.tests.TC03_PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset@5acf93bb]" started-at="2023-05-08T13:30:07 IST" name="launchApplicationandLogin" finished-at="2023-05-08T13:30:18 IST" duration-ms="11396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicationandLogin -->
+        <test-method signature="PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset(java.util.HashMap)[pri:0, instance:qa_refapp.openmrs.tests.TC03_PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset@5acf93bb]" started-at="2023-05-08T13:30:18 IST" name="PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset" data-provider="dataset" finished-at="2023-05-08T13:30:27 IST" duration-ms="9013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Tom Cat}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa_refapp.openmrs.tests.TC03_PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset@5acf93bb]" started-at="2023-05-08T13:30:28 IST" name="afterTest" finished-at="2023-05-08T13:30:28 IST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa_refapp.openmrs.tests.TC03_PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset -->
+      <class name="qa_refapp.openmrs.tests.TC01_DashboardPageVerificationTest">
+        <test-method is-config="true" signature="launchApplicationandLogin()[pri:0, instance:qa_refapp.openmrs.tests.TC01_DashboardPageVerificationTest@a530d0a]" started-at="2023-05-08T13:29:17 IST" name="launchApplicationandLogin" finished-at="2023-05-08T13:29:36 IST" duration-ms="19194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicationandLogin -->
+        <test-method signature="DashboardPageVerificationTest()[pri:0, instance:qa_refapp.openmrs.tests.TC01_DashboardPageVerificationTest@a530d0a]" started-at="2023-05-08T13:29:36 IST" name="DashboardPageVerificationTest" finished-at="2023-05-08T13:29:36 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardPageVerificationTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa_refapp.openmrs.tests.TC01_DashboardPageVerificationTest@a530d0a]" started-at="2023-05-08T13:29:36 IST" name="afterTest" finished-at="2023-05-08T13:29:37 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa_refapp.openmrs.tests.TC01_DashboardPageVerificationTest -->
+      <class name="qa_refapp.openmrs.tests.TC10_AddPastVisitandVerifyFutureDateIsNotClickable">
+        <test-method is-config="true" signature="launchApplicationandLogin()[pri:0, instance:qa_refapp.openmrs.tests.TC10_AddPastVisitandVerifyFutureDateIsNotClickable@1af2d44a]" started-at="2023-05-08T13:33:50 IST" name="launchApplicationandLogin" finished-at="2023-05-08T13:34:01 IST" duration-ms="10955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicationandLogin -->
+        <test-method signature="AddPastVisitandVerifyFutureDateIsNotClickable(java.util.HashMap)[pri:0, instance:qa_refapp.openmrs.tests.TC10_AddPastVisitandVerifyFutureDateIsNotClickable@1af2d44a]" started-at="2023-05-08T13:34:01 IST" name="AddPastVisitandVerifyFutureDateIsNotClickable" data-provider="dataset" finished-at="2023-05-08T13:34:10 IST" duration-ms="9328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{expectedAttriblteVal=day disabled, Name=Tom Cat}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddPastVisitandVerifyFutureDateIsNotClickable -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa_refapp.openmrs.tests.TC10_AddPastVisitandVerifyFutureDateIsNotClickable@1af2d44a]" started-at="2023-05-08T13:34:11 IST" name="afterTest" finished-at="2023-05-08T13:34:11 IST" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa_refapp.openmrs.tests.TC10_AddPastVisitandVerifyFutureDateIsNotClickable -->
+      <class name="qa_refapp.openmrs.tests.TC06_StartCaptureVitalsAndVerifyBMIusingFormulaTest">
+        <test-method is-config="true" signature="launchApplicationandLogin()[pri:0, instance:qa_refapp.openmrs.tests.TC06_StartCaptureVitalsAndVerifyBMIusingFormulaTest@614ca7df]" started-at="2023-05-08T13:31:45 IST" name="launchApplicationandLogin" finished-at="2023-05-08T13:31:57 IST" duration-ms="12305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicationandLogin -->
+        <test-method signature="StartCaptureVitalsAndVerifyBMIusingFormulaTest(java.util.HashMap)[pri:0, instance:qa_refapp.openmrs.tests.TC06_StartCaptureVitalsAndVerifyBMIusingFormulaTest@614ca7df]" started-at="2023-05-08T13:31:57 IST" name="StartCaptureVitalsAndVerifyBMIusingFormulaTest" data-provider="dataset" finished-at="2023-05-08T13:32:38 IST" duration-ms="40246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Tom Cat}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartCaptureVitalsAndVerifyBMIusingFormulaTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa_refapp.openmrs.tests.TC06_StartCaptureVitalsAndVerifyBMIusingFormulaTest@614ca7df]" started-at="2023-05-08T13:32:38 IST" name="afterTest" finished-at="2023-05-08T13:32:38 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa_refapp.openmrs.tests.TC06_StartCaptureVitalsAndVerifyBMIusingFormulaTest -->
+      <class name="qa_refapp.openmrs.tests.TC04_AttachmentTosterofStartVisitTest">
+        <test-method is-config="true" signature="launchApplicationandLogin()[pri:0, instance:qa_refapp.openmrs.tests.TC04_AttachmentTosterofStartVisitTest@7e7be63f]" started-at="2023-05-08T13:30:28 IST" name="launchApplicationandLogin" finished-at="2023-05-08T13:30:39 IST" duration-ms="11143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicationandLogin -->
+        <test-method signature="AttachmentTosterofStartVisitTest(java.util.HashMap)[pri:0, instance:qa_refapp.openmrs.tests.TC04_AttachmentTosterofStartVisitTest@7e7be63f]" started-at="2023-05-08T13:30:39 IST" name="AttachmentTosterofStartVisitTest" data-provider="dataset" finished-at="2023-05-08T13:31:15 IST" duration-ms="36118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{coption=Attachment1, filepath=\Chrysanthemum.jpg, Name=Tom Cat}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AttachmentTosterofStartVisitTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa_refapp.openmrs.tests.TC04_AttachmentTosterofStartVisitTest@7e7be63f]" started-at="2023-05-08T13:31:16 IST" name="afterTest" finished-at="2023-05-08T13:31:16 IST" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa_refapp.openmrs.tests.TC04_AttachmentTosterofStartVisitTest -->
+      <class name="qa_refapp.openmrs.tests.TC02_RegisterPatientandVerifyPatientDetailsTest">
+        <test-method is-config="true" signature="launchApplicationandLogin()[pri:0, instance:qa_refapp.openmrs.tests.TC02_RegisterPatientandVerifyPatientDetailsTest@1a18644]" started-at="2023-05-08T13:29:37 IST" name="launchApplicationandLogin" finished-at="2023-05-08T13:29:51 IST" duration-ms="13735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicationandLogin -->
+        <test-method signature="RegisterPatientandVerifyPatientDetailsTest(java.util.HashMap)[pri:0, instance:qa_refapp.openmrs.tests.TC02_RegisterPatientandVerifyPatientDetailsTest@1a18644]" started-at="2023-05-08T13:29:51 IST" name="RegisterPatientandVerifyPatientDetailsTest" data-provider="dataset" finished-at="2023-05-08T13:30:06 IST" duration-ms="14680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lastName=Cat, country=IND, address=13B, gender=M, city=CBE, postalCode=641029, birthDate=24, birthMon=6, firstName=Tom, birthYr=1990, phone=9877656789, state=TN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterPatientandVerifyPatientDetailsTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa_refapp.openmrs.tests.TC02_RegisterPatientandVerifyPatientDetailsTest@1a18644]" started-at="2023-05-08T13:30:06 IST" name="afterTest" finished-at="2023-05-08T13:30:07 IST" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa_refapp.openmrs.tests.TC02_RegisterPatientandVerifyPatientDetailsTest -->
+      <class name="qa_refapp.openmrs.tests.TC09_MergVisitsAndVerifyRecentVisitsTest">
+        <test-method is-config="true" signature="launchApplicationandLogin()[pri:0, instance:qa_refapp.openmrs.tests.TC09_MergVisitsAndVerifyRecentVisitsTest@1e04fa0a]" started-at="2023-05-08T13:33:18 IST" name="launchApplicationandLogin" finished-at="2023-05-08T13:33:30 IST" duration-ms="11299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicationandLogin -->
+        <test-method signature="MergVisitsAndVerifyRecentVisitsTest(java.util.HashMap)[pri:0, instance:qa_refapp.openmrs.tests.TC09_MergVisitsAndVerifyRecentVisitsTest@1e04fa0a]" started-at="2023-05-08T13:33:30 IST" name="MergVisitsAndVerifyRecentVisitsTest" data-provider="dataset" finished-at="2023-05-08T13:33:50 IST" duration-ms="19789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{tag=Vitals, Attachment Upload, Name=Tom Cat}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MergVisitsAndVerifyRecentVisitsTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa_refapp.openmrs.tests.TC09_MergVisitsAndVerifyRecentVisitsTest@1e04fa0a]" started-at="2023-05-08T13:33:50 IST" name="afterTest" finished-at="2023-05-08T13:33:50 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa_refapp.openmrs.tests.TC09_MergVisitsAndVerifyRecentVisitsTest -->
+      <class name="qa_refapp.openmrs.tests.TC08_RecentVisitWithCurrentDateandVitalTest">
+        <test-method is-config="true" signature="launchApplicationandLogin()[pri:0, instance:qa_refapp.openmrs.tests.TC08_RecentVisitWithCurrentDateandVitalTest@66d3eec0]" started-at="2023-05-08T13:32:57 IST" name="launchApplicationandLogin" finished-at="2023-05-08T13:33:08 IST" duration-ms="10465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicationandLogin -->
+        <test-method signature="RecentVisitWithCurrentDateandVitalTest(java.util.HashMap)[pri:0, instance:qa_refapp.openmrs.tests.TC08_RecentVisitWithCurrentDateandVitalTest@66d3eec0]" started-at="2023-05-08T13:33:08 IST" name="RecentVisitWithCurrentDateandVitalTest" data-provider="dataset" finished-at="2023-05-08T13:33:18 IST" duration-ms="10029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{tag=Vitals, Name=Tom Cat}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecentVisitWithCurrentDateandVitalTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa_refapp.openmrs.tests.TC08_RecentVisitWithCurrentDateandVitalTest@66d3eec0]" started-at="2023-05-08T13:33:18 IST" name="afterTest" finished-at="2023-05-08T13:33:18 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa_refapp.openmrs.tests.TC08_RecentVisitWithCurrentDateandVitalTest -->
+      <class name="qa_refapp.openmrs.tests.TC07_HeightWeightAbdBMIVerificationInPatientDetailPageTest">
+        <test-method is-config="true" signature="launchApplicationandLogin()[pri:0, instance:qa_refapp.openmrs.tests.TC07_HeightWeightAbdBMIVerificationInPatientDetailPageTest@4738a206]" started-at="2023-05-08T13:32:38 IST" name="launchApplicationandLogin" finished-at="2023-05-08T13:32:48 IST" duration-ms="10238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicationandLogin -->
+        <test-method signature="HeightWeightAbdBMIVerificationInPatientDetailPageTest(java.util.HashMap)[pri:0, instance:qa_refapp.openmrs.tests.TC07_HeightWeightAbdBMIVerificationInPatientDetailPageTest@4738a206]" started-at="2023-05-08T13:32:48 IST" name="HeightWeightAbdBMIVerificationInPatientDetailPageTest" data-provider="dataset" finished-at="2023-05-08T13:32:56 IST" duration-ms="8100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Tom Cat}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HeightWeightAbdBMIVerificationInPatientDetailPageTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa_refapp.openmrs.tests.TC07_HeightWeightAbdBMIVerificationInPatientDetailPageTest@4738a206]" started-at="2023-05-08T13:32:57 IST" name="afterTest" finished-at="2023-05-08T13:32:57 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa_refapp.openmrs.tests.TC07_HeightWeightAbdBMIVerificationInPatientDetailPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

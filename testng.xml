@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name = "qa_refapp.openmrs.baseComponent.Listeners"/>
+	</listeners>	
+  <test thread-count="5" name="Test">
+    <classes>
+	  <class name="qa_refapp.openmrs.tests.TC01_DashboardPageVerificationTest"/>
+      <class name="qa_refapp.openmrs.tests.TC02_RegisterPatientandVerifyPatientDetailsTest"/>
+      <class name="qa_refapp.openmrs.tests.TC03_PatientDetailPageVerificationandVerifyAgeCorrectnessBasedOnDOBTset"/>
+      <class name="qa_refapp.openmrs.tests.TC04_AttachmentTosterofStartVisitTest"/>
+      <class name="qa_refapp.openmrs.tests.TC05_AttachmentandRecentVisitwithAttachmentUploadTagTest"/>
+      <class name="qa_refapp.openmrs.tests.TC06_StartCaptureVitalsAndVerifyBMIusingFormulaTest"/>
+      <class name="qa_refapp.openmrs.tests.TC07_HeightWeightAbdBMIVerificationInPatientDetailPageTest"/>
+      <class name="qa_refapp.openmrs.tests.TC08_RecentVisitWithCurrentDateandVitalTest"/>   
+      <class name="qa_refapp.openmrs.tests.TC09_MergVisitsAndVerifyRecentVisitsTest"/>
+      <class name="qa_refapp.openmrs.tests.TC10_AddPastVisitandVerifyFutureDateIsNotClickable"/> 
+      <class name="qa_refapp.openmrs.tests.TC11_DeletePatientVerifyToasterTestAndSearchDeletedPatient"/>
+    </classes>
+  </test> <!-- Test -->
+	
+</suite> <!-- Suite -->
